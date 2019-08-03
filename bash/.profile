@@ -69,11 +69,10 @@ alias gpp='git pull; git push'
 alias www='cd /usr/share/www'
 alias www:bi='cd /usr/share/www/base_includes'
 alias www:h='cd /usr/share/www/hailo'
-alias ds='cd /Users/whicks/Devspace/'
-alias docwww='cd /Users/whicks/Devspace/www'
-alias sdev='cd /Users/whicks/Devspace/stratus'
-alias devspace='cd /Users/whicks/Devspace'
-alias ssites='cd /Users/whicks/Devspace/stratus/sites/'
+alias ds='cd /Users/jupiter/Devspace/'
+alias docwww='cd /Users/jupiter/Devspace/www'
+alias devspace='cd /Users/jupiter/Devspace'
+
 
 alias h?="history | grep "
 
@@ -115,7 +114,7 @@ SSH_CONFIG_HOSTS=( $(cat ~/.ssh/config | grep "Host " | grep -v "*" | cut -f 2 -
 complete -o default -W "${SSH_KNOWN_HOSTS[*]} ${SSH_CONFIG_HOSTS[*]}" ssh
 
 WHOAMI=$(whoami)
-export PATH=/usr/local/bin:~/.composer/vendor/bin:/Users/whicks/Library/Python/2.7/bin:$PATH
+export PATH=/usr/local/bin:~/.composer/vendor/bin:/Users/jupiter/Library/Python/2.7/bin:$PATH
 export NODE_PATH="/usr/local/bin/node:/usr/local/lib/node_modules:{$WHOAMI}/lib/node_modules"
 export NODE_ENV=development
 export GOPATH=$HOME/Devspace/go
