@@ -1,72 +1,102 @@
 {
-  "workbench.colorTheme": "Popping and Locking",
-  "workbench.editor.revealIfOpen": true,
-  "window.zoomLevel": -1,
-  "[javascript]": {
+    "workbench.colorTheme": "Popping and Locking",
+    "workbench.editor.revealIfOpen": true,
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
+    "[javascriptreact]":{
       "editor.tabSize": 2
-  },
-  "[javascriptreact]":{
-    "editor.tabSize": 2
-  },
-  "eslint.autoFixOnSave": true,
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    {
-      "language": "vue",
-      "autoFix": true
-    }
-  ],
-  "[git-commit]": {
-      "editor.rulers": [
-        50,
-        72
-      ]
-  },
-  "gitlens.keymap": "alternate",
-  "explorer.autoReveal": true,
-  "editor.renderWhitespace": "all",
-  "editor.cursorStyle": "block",
-  "gitlens.advanced.messages": {
-    "suppressFileNotUnderSourceControlWarning": true,
-    "suppressLineUncommittedWarning": true,
-    "suppressShowKeyBindingsNotice": true
-  },
-  "materialTheme.cache.workbench.settings": {},
-  "workbench.colorCustomizations": {
-    "[Popping and Locking]": {
-      "scrollbarSlider.activeBackground": "#FF704250",
-      "sideBar.background": "#1a1a1a",
-      "sideBar.foreground": "#c0c0c0",
-      "editor.background": "#0f1419",
-      "editorGutter.background": "#0f1419",
-      "editor.background": "#242424",
-      "editorGutter.background": "#242424"
-    }
-  },
-  "editor.tokenColorCustomizations": {
-    "[Popping and Locking]": {
-      "comments": "#505664",
-      "textMateRules": [
-        {
-          "scope": "punctuation.definition.comment",
-          "settings": {
-            "foreground": "#505664"
+    },
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      {
+        "language": "vue",
+        "autoFix": true
+      }
+    ],
+    "[git-commit]": {
+        "editor.rulers": [
+          50,
+          72
+        ]
+    },
+    "gitlens.keymap": "alternate",
+    "explorer.autoReveal": true,
+    "editor.renderWhitespace": "all",
+    "editor.cursorStyle": "block",
+    "gitlens.advanced.messages": {
+      "suppressFileNotUnderSourceControlWarning": true,
+      "suppressLineUncommittedWarning": true,
+      "suppressShowKeyBindingsNotice": true
+    },
+    "materialTheme.cache.workbench.settings": {},
+    "workbench.colorCustomizations": {
+      "[Popping and Locking]": {
+        "scrollbarSlider.activeBackground": "#FF704250",
+        "sideBar.background": "#1a1a1a",
+        "sideBar.foreground": "#c0c0c0",
+        "editor.background": "#0f1419",
+        "editorGutter.background": "#0f1419",
+        "editor.background": "#242424",
+        "editorGutter.background": "#242424",
+        "menu.background": "#ff0000",
+        "window.activeBorder": "#b8a300",
+        "window.inactiveBorder": "#0b1213",
+        "titleBar.activeBackground": "#242420"
+      }
+    },
+    "editor.tokenColorCustomizations": {
+      "[Popping and Locking]": {
+        "comments": "#505664",
+        "textMateRules": [
+          {
+            "scope": "punctuation.definition.comment",
+            "settings": {
+              "foreground": "#505664"
+            }
           }
-        }
-      ]
-    }
-  },
-  "search.location": "panel",
-  "gitlens.historyExplorer.enabled": true,
-  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-  "php-cs-fixer.lastDownload": 1536971356451,
-  "javascript.updateImportsOnFileMove.enabled": "never",
-  "gitlens.views.fileHistory.enabled": true,
-  "gitlens.views.lineHistory.enabled": true,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "breadcrumbs.enabled": true,
-  "workbench.startupEditor": "newUntitledFile",
-  "editor.fontFamily": "IBM Plex Mono",
-  "editor.fontSize": 13
-}
+        ]
+      }
+    },
+    "gitlens.historyExplorer.enabled": true,
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    "php-cs-fixer.lastDownload": 1536971356451,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "breadcrumbs.enabled": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontFamily": "IBM Plex Mono",
+    "editor.fontSize": 13,
+    "go.formatTool": "goimports",
+    "go.lintOnSave": "file",
+    "go.lintTool": "golint",
+    "go.autocompleteUnimportedPackages": true,
+    "go.gotoSymbol.includeGoroot": true,
+    "go.gotoSymbol.includeImports": true,
+    "go.useLanguageServer": true,
+    "go.toolsEnvVars": {
+        "GO111MODULE": "on"
+    },
+    "markdown.extension.toc.updateOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "terraform.languageServer": {
+      "external": true
+    },
+    "extensions.ignoreRecommendations": true,
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "mssql.connections": [
+      {
+        "server": "{{put-server-name-here}}",
+        "database": "{{put-database-name-here}}",
+        "user": "{{put-username-here}}",
+        "password": "{{put-password-here}}"
+      }
+    ],
+    "window.zoomLevel": -1
+  }
