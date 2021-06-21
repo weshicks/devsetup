@@ -1,6 +1,6 @@
 # VS Code
 
-Plugin list:
+Plugin list (generated via `code --list-extensions`):
 ```
 2gua.rainbow-brackets
 bierner.github-markdown-preview
