@@ -11,6 +11,13 @@ Currently everything is separated out by program:
 - [/vscode](/vscode) 
     - Contains my VS Code settings.json file. I use a modified version of the [_Popping and Locking_](https://marketplace.visualstudio.com/items?itemName=hedinne.popping-and-locking-vscode) theme currently.
 
+## Git Things
+Sets VSCode to the default git editor: 
+
+```
+git config --global core.editor "code --wait"
+```
+
 
 ## Fonts
 I've experimented with a few fonts for development related tasks, but my current favorite is [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) (regular weight). I use this font in both VS code and iTerm.
